@@ -104,7 +104,7 @@ if race_choice == "6":
 	hero_class = Lothlorien(hero_name)
 time.sleep (1.5)
 
-print "'%s you say? It's been many long years since I traveled that way, but I remember it fondly. \n'" % (hero_class.home)
+print "'%s you say? It's been many long years since I traveled that way, but I remember it fondly.' \n" % (hero_class.home)
 time.sleep (1.5)
 
 print "'Anyway, I hate to be so forward, but there's no use in wasting our breath. I have something that I need delivered to a friend of mine, and I get the feeling that you just might be the one for the job. \nYou'll be handsomely rewarded. What do you say, yes or no?'"
