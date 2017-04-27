@@ -9,6 +9,7 @@ class Hobbit(object):
 		self.magic = 1
 		self.health = 10
 		self.home = "The Shire"
+		
 
 class Dwarf(object):
 	def __init__(self, name):
@@ -21,6 +22,7 @@ class Dwarf(object):
 		self.magic = 1
 		self.health = 18
 		self.home = "The Misty Mountains"
+		
 
 class Rohan(object):
 	def __init__(self, name):
@@ -33,6 +35,7 @@ class Rohan(object):
 		self.magic = 1
 		self.health = 15
 		self.home = "Rohan"
+		
 
 class Gondor(object):
 	def __init__(self, name):
@@ -45,6 +48,7 @@ class Gondor(object):
 		self.magic = 1
 		self.health = 15
 		self.home = "Gondor"
+		
 
 class Rivendell(object):
 	def __init__(self, name):
@@ -57,6 +61,7 @@ class Rivendell(object):
 		self.magic = 3
 		self.health = 20
 		self.home = "Rivendell"
+		
 
 class Lothlorien(object):
 	def __init__(self, name):
@@ -69,3 +74,13 @@ class Lothlorien(object):
 		self.magic = 5
 		self.health = 19
 		self.home = "Lothlorien"
+		
+
+
+
+
+
+
+
+
+

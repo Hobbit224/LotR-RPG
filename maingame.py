@@ -7,6 +7,18 @@ from Herosheet import Gondor
 from Herosheet import Rivendell
 from Herosheet import Lothlorien
 
+inventory = {
+	'gold' == 25,
+	'package' == 'A small brown package',
+}
+
+
+
+
+
+# START SCREEN
+
+
 startup = True
 while startup == True:
 	new_game = raw_input("Start a new game? Y/N \n")
@@ -18,6 +30,10 @@ while startup == True:
 		
 	else:
 		print "That is not a valid input.\n"
+
+
+# INDRODUCTION
+
 
 time.sleep (1.5)
 print "You're sitting in the Prancing Pony in the town of Bree, when a bearded old man in a gray hat approaches you. \n"
@@ -51,22 +67,6 @@ print "         || |    (        ,' /   /   |"
 print "         ||                ,'   /    |"
 
          
-         
-          
-          
-         
-           
-            
-             
-              
-               
-                
-                
-             
-                
-                
-                
-                
 
 
 print "'I say, I haven't seen you here before,' he says, 'and I know nearly everybody who comes to this inn. What is your name?'"
@@ -103,7 +103,7 @@ if race_choice == "6":
 	hero_race = "Elf of Lothlorien"
 	hero_class = Lothlorien(hero_name)
 time.sleep (1.5)
-
+print "\n"
 print "'%s you say? It's been many long years since I traveled that way, but I remember it fondly.' \n" % (hero_class.home)
 time.sleep (1.5)
 
@@ -121,7 +121,46 @@ while gandalf_unanswered == True:
 		print "'Come again? I can't hear you if you mumble. I'm an old man after all.'"
 		gandalf_unanswered = False
 
+print "\n"
+print "The man hands you a small package wrapped in brown paper. \n"
+time.sleep (1.5)
+print "'Never you mind what's in there, just see that it's delivered. Meet me again in the morning and I'll tell you where you'll be setting off to.'"
+time.sleep (5)
 
+
+# ADVENTURE STARTS
+print "\n"
+print "\n"
+print "\n"
+print "\n"
+
+print "You wake up and start to head down to meet the old man, but you find that he's already waiting at your door."
+time.sleep (1.5)
+print "\n"
+print "My apologies, I didn't mean to surprise you, but you really must be off as soon as you can be."
+print "\n"
+print "'I want you to take the package to a friend of mine in Rohan. His name is Eoswyth, and he lives in the capital city of Edoras. Now, off you go!'"
+print "\n"
+time.sleep (1.5)
+print "You leave the Prancing Pony, the sun not yet risen. What do you wish to do?"
+print "\n"
+
+
+
+print "1. Leave Bree."
+print "2. Visit the store."
+print "3. Check inventory."
+outside_pony = raw_input("> ")
+print "\n"
+
+if outside_pony == "3":
+	print inventory
+
+
+
+
+
+	
 
 
 
